@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Body from './component/Body/Body'
+
 const App = () => {
   return (
-    <div className='flex justify-center items-center' >App</div>
+    <div>
+      <Body/>
+      </div>
   )
 }
 
